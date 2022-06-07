@@ -1,0 +1,501 @@
+/* 
+    Author: Kadlag Sakshi;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:rgb(247, 242, 242);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+
+.shape{
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-item-center
+{
+    align-items: center;
+    margin-left: 28%;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color:blanchedalmond;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+.error
+{
+    padding: 2%;
+    color: red;
+}
+
+
+.success
+{
+    padding: 2%;
+    color:green;
+    font-size: 28px;
+    font-style: italic;
+}
+/* CSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+/* .navbar
+{
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width:100%;
+} */
+.menu{
+    line-height: 60px;
+    /* overflow: hidden;
+    position: fixed;
+    top:4%;
+    left: 1%;
+    right:5%;
+    background-color: #747d8c;
+     */
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bgmixed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ebd2d2;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color:rgb(226, 165, 89);
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+/* CSS for Login */
+
+.login{
+
+    border:2px solid;
+    border-radius: 20px;
+    width:30%;
+    margin: 10% auto;
+    padding: 3%;
+    background-color: whitesmoke;
+   
+
+}
+
+.btn-login{
+
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding:15px;
+    border-radius: 7px;
+    width:80%;
+    margin-top: 24px;
+    
+
+}
+.login-back
+{
+    background-image: url(../admin/wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: #747d8c; */
+
+}
+
+
+.login-name
+{
+    color:black;
+
+}
+
+.login-success{
+    color:green;
+    margin-top: 10px;
+}
+
+.input{
+    padding:15px;
+    border-radius: 7px;
+    width:80%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.heading{
+    color: black;
+}
+
+
+
+
+/* Css for contact page */
+
+
+.contact-back
+{
+    
+    background-image: url(../admin/contact-back.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.contact-cust
+{
+    border:2px solid;
+    border-radius: 20px;
+    width:30%;
+    margin: 1% auto;
+    padding: 4%;
+    background-color: whitesmoke;
+   
+
+}
+
+.btn-contact{
+    padding:15px;
+    border-radius: 7px;
+    width:90%;
+    margin-top: 20px;
+    
+}
+
+
+
+/* Css for legend */
+
+.bold
+{
+    font-size: 50px;
+}
+/* CSS for Registration page */
+
+.registration-back
+{
+     
+    background-image: url(../admin/registration.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.login-register{
+
+    border:2px solid;
+    border-radius: 20px;
+    width:30%;
+    margin: 1% auto;
+    padding: 4%;
+    background-color: whitesmoke;
+   
+
+}
+
+/* Css for payment page */
+
+.payment
+{
+    padding: 40px;
+    
+}
+
+
+.payment-text{
+    padding: 2%;
+    font-size: 20px;
+}
+
+
+
+.pay-field
+{
+    border-color: black;
+    /* background-color: white; */
+    width:40%;
+    margin-left: 30%;
+}
+
+
+.pay
+{
+    margin-top: 10%;
+}
+
+
+.payable{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+
+/* Css for successfully page */
+
+
+.order-success{
+
+    border: 2px solid green;
+    margin-top: 6%;
+    align-items: center;
+    width:30%;
+    height: 40%;
+    padding: 11%;
+    margin-left: 24%;
+    border-radius: 52%;
+    background-color:green;
+    background-image: url(../admin/true.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    font-size: 30px;
+    
+}
+
+
+.success-msg
+{
+    text-align: center;
+    color: antiquewhite;
+    
+}
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}

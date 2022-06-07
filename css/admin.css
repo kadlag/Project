@@ -1,0 +1,206 @@
+/* 
+Author:Sakshi Kadlag;
+Theme:Food order website
+version:1.0
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+   
+    padding:1%;
+    width:80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+.tbl-full{
+    width:100%;
+/* text-align: center; */
+
+    
+}
+
+
+
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding:1%;
+}
+
+.btn-primary{
+    background-color: rgb(72, 148, 219);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight:bold ;
+}
+.btn-primary:hover{
+    background-color: blue;
+}
+
+.btn-secondary{
+    background-color: rgb(28, 168, 87);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight:bold ;
+}
+.btn-secondary:hover{
+    background-color: rgb(8, 99, 38);
+}
+
+.btn-danger{
+    background-color: rgb(212, 49, 49);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight:bold ;
+}
+.btn-danger:hover{
+    background-color:rgb(223, 4, 4);
+}
+
+.success{
+    color:green;
+}
+
+.error{
+    color:red;
+}
+
+/* CSS for menu */
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(223, 41, 71);
+}
+
+.menu ul li a:hover{
+    color: pink;
+}
+
+
+
+
+
+/* CSS for main content */
+.main-content{
+ 
+    background-color: rgb(218, 209, 209);
+    padding:3% 0
+}
+
+.col-4{
+    width:18%;
+    background-color: white;
+    margin:1%;
+    padding: 2%;
+    float:left;
+}
+/* CSS for footer */
+
+.footer{
+    background-color:rgb(233, 8, 0) ;
+    color: white;
+}
+
+
+
+/* CSS for Login */
+
+.login{
+
+    border:2px solid;
+    border-radius: 20px;
+    width:30%;
+    margin: 10% auto;
+    padding: 3%;
+    background-color: whitesmoke;
+   
+
+}
+
+.btn-login{
+
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding:15px;
+    border-radius: 7px;
+    width:80%;
+    margin-top: 24px;
+    
+
+}
+.login-back
+{
+    /* background-image: url(../admin/login-front-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: #747d8c;
+
+}
+
+
+.login-name
+{
+    color:black;
+
+}
+
+.login-success{
+    color:green;
+    margin-top: 10px;
+}
+
+.input{
+    padding:15px;
+    border-radius: 7px;
+    width:80%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.heading{
+    color: black;
+}
